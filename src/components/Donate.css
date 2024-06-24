@@ -1,0 +1,122 @@
+
+/* body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    background-image:url(/src/assets/donate.jpg);
+} */
+ .container1{
+    margin: 0;
+    overflow: hidden;
+    background:linear-gradient(rgba(186, 232, 205, 0.396),rgb(137, 202, 155));
+ }
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: rgb(109, 20, 20);
+    padding: 20px;
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:linear-gradient(rgba(3, 36, 1, 0.396),rgb(67, 128, 98));
+}
+/* .header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 9px;
+   width: 100%;
+} */
+/* .text{
+    color: rgb(2, 53, 10);
+    font-size: 48px;
+    font-weight: 700;
+} */
+.underline{
+    width: 61px;
+    height:6px;
+    background: rgb(27, 4, 63);
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    width: 70%;
+    height: 45px;
+    background: #eaeaea;
+    border-radius: 6px;
+    
+}
+.input img{
+    margin:0px 30px;
+
+}
+.inputs input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    color: #fcfafa;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: black;
+}
+.forget-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color:#fefcfc;
+    font-size: 18px;
+}
+.forget-password span{
+color: #4c00b4;
+cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap:30px;
+    margin: 60px auto;
+}
+.submit{
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    position: relative;
+    left: 150px;
+    height: 40px;
+    color: #fff;
+    background: rgb(62, 61, 61);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.gray{
+    background: rgb(157, 152, 152);
+    color: rgb(249, 253, 253);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width:0%;
+    height: 10px;
+}
+.lable{
+display: block;
+width:200px;
+background: #e3362c;
+color: #fff;
+padding:12px;
+margin:10px auto;
+border-radius: 5px;
+cursor: pointer;
+}

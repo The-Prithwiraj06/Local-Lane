@@ -1,0 +1,109 @@
+
+.demo2{
+    background-color: #DCFAEA;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.demo{
+    background-color: #C2FADC;
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 900px;
+    display:-block;
+    z-index: 1;
+    right: -15em;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 100%;
+    /* border-end-start-radius: 50%;
+    border-start-start-radius: 50%; */
+    
+}
+.P1{
+    top: 100px;
+    left: 100px;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    /* font-size: 50px; */
+    letter-spacing: 20px !important;
+    z-index: 1;
+}
+.P2{
+    position: relative;
+    left: 220px !important;
+}
+.P3{
+    top: 100px;
+    left: 90px;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-weight:200%;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 120px !important;
+    letter-spacing: 30px;
+    z-index: 1;
+    margin-bottom: 0;
+}
+.P4{
+    top: 20px;
+    left: 100px;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-variation-settings:"slnt" 0;
+    z-index: 1;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    
+    width: 80px;
+    position: relative;
+    left: 120px;
+    top: 30px;
+    border: 0;
+    background-color: #7EFBC7;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(82, 243, 216);
+    color: bisque;
+    cursor: pointer;
+    
+}
+.blur{
+    position: relative;
+    display: block;
+    left: 700px;
+    top: -70px;
+    z-index: 1;
+    -webkit-filter: blur(130px);
+    -moz-filter: blur(130px);
+    -o-filter: blur(130px);
+    -ms-filter: blur(130px);
+    filter: blur(130px);
+    width: 700px;
+    height: 500px;
+    background-color: #CAFF88;
+    border-radius: 100%;   
+}
+
+.img{ display: flex;
+    color: #C2FADC;
+    left: 800px;
+    height: 300px;
+    width: 250px;
+    z-index: 2;
+    border-radius: 100%;
+}
+    /* border-bottom-left-radius: 1200px; */
+   /* background: linear-gradient(blue,black,0.5)
+ 

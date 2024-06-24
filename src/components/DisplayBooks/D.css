@@ -1,0 +1,8 @@
+.imga{
+    height: 300px !important;
+    width: 200px !important;
+    padding: 10px;
+}
+.back{
+    background-color: rgb(180, 241, 198);
+}

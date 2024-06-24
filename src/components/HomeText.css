@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.demo2{
+    background-color: #DCFAEA;
+    position: relative !important;
+    height: 600px;
+    width: 100%;
+    top:0;
+    left: 0;
+    overflow: hidden;
+}
+.demo{
+    background-color: #C2FADC;
+    /* left: 240px; */
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    top: 0rem;
+    clip-path: ellipse(550px 450px at 90% 20%); 
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+     border-end-start-radius: 50%;
+    border-start-start-radius: 50%; 
+
+}
+.blur{
+    position: relative;
+    display: block;
+    left: 750px;
+    bottom: 250px;
+    -webkit-filter: blur(90px) !important;
+    -moz-filter: blur(90px) !important;
+    -o-filter: blur(90px) !important;
+    -ms-filter: blur(90px)!important;
+    filter: blur(90px) !important;
+    width: 300px;
+    height: 300px;
+    background-color: #CAFF88;
+    border-radius: 100%;   
+}
+.img{ position: absolute;
+    top: 150px;
+    right: 15px;
+    color: #C2FADC;
+    left: 850px;
+    height: 300px;
+    width: 250px;
+    z-index: 2;
+    border-radius: 100%;
+}
+.d1{
+    position: relative !important;
+    top:10% !important;
+    left: 8%;
+    display: flex !important;
+    flex-direction: column;
+    height: 60%;
+    width: 50%;
+    justify-content: space-around;
+}
+.so{
+    font-family: "Inter", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 120px !important;
+    letter-spacing: 10px;
+    z-index: 1;
+    left: 50px;
+}
+.P1{
+    font-family: "Inter", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    /* font-size: 50px; */
+    letter-spacing: 20px;
+    z-index: 1;
+    top:0;
+}
+.P2{
+    text-align: center;
+    margin-top: 1rem;
+}
+.P3{
+    position: relative;
+ 
+}
+.P4{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-variation-settings:"slnt" 0;
+    z-index: 1;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    
+    width: 80px;
+    border: 0;
+    background-color: #83d6b4 !important;
+    color: white !important;
+}
+.btn:hover{
+    background-color: rgb(82, 243, 216);
+    color: bisque;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,27 @@
+.footer{
+    background:rgb(40,40,40) !important ; 
+    display: flex;
+    justify-content: space-between;
+font-size:small ;
+color: aliceblue;
+padding-top: 25px;
+width: 100vw;
+height: 50%;
+padding-left: 50px;
+}
+.details{
+    font-size:small ;
+    padding-top: 25px;
+    align-items: left;
+    padding-top: 25px;
+}
+.content{
+    font-size:small ;
+    padding-top: 25px;
+    align-items: flex-end;
+}
+.contact{
+    font-size:small ;
+    padding-top: 25px;
+   
+}
